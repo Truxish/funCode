@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  font-family: monospace;
+  font-size: 20px;
+
+}
+
+button{
+  width: 120px;
+  align-self: center;
+  margin: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+
+}
+
+#fh{
+  align-self: center;
+  margin: 20px;
+}
+
+#cl{
+  align-self: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
